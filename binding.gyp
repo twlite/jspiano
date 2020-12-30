@@ -4,7 +4,7 @@
             "target_name": "piano",
             "cflags!": ["-fno-exceptions"],
             "cflags_cc!": ["-fno-exceptions"],
-            "sources": ["piano.cc"],
+            "sources": ["src/piano.cc"],
             "include_dirs": [
                 "<!@(node -p \"require('node-addon-api').include\")"
             ],

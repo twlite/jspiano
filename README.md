@@ -3,32 +3,15 @@ Simple Node.js Piano
 
 # Installing
 
-1. Download the repo
-
 ```sh
-$ git clone https://github.com/Snowflake107/jspiano.git
+$ npm i jspiano
 ```
 
-2. Change dir
+# Example
 
-```sh
-$ cd jspiano
-```
+```js
+const { Piano, Sheets } = require("jspiano");
+const piano = new Piano("C4");
 
-3. Install deps
-
-```sh
-$ npm install
-```
-
-4. Build
-
-```sh
-$ npm run build
-```
-
-5. Run
-
-```sh
-$ npm t
+piano.playSheet(Sheets.get("happybirthday"));
 ```

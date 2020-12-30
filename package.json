@@ -1,16 +1,35 @@
 {
-  "name": "simple-js-piano",
+  "name": "jspiano",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "piano.js",
   "license": "MIT",
   "scripts": {
     "rebuild": "node-gyp rebuild",
     "build": "node-gyp configure && node-gyp build",
-    "test": "node piano.js"
+    "install": "node-gyp configure && node-gyp build",
+    "test": "cd test && node index.js"
   },
   "dependencies": {
     "bindings": "^1.5.0",
     "node-addon-api": "^3.1.0"
   },
-  "gypfile": true
+  "gypfile": true,
+  "description": "Simple Node.js Piano",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Snowflake107/jspiano.git"
+  },
+  "keywords": [
+    "piano",
+    "node.js"
+  ],
+  "author": "Snowflake107",
+  "bugs": {
+    "url": "https://github.com/Snowflake107/jspiano/issues"
+  },
+  "homepage": "https://github.com/Snowflake107/jspiano#readme"
 }

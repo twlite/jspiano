@@ -5,12 +5,12 @@ Napi::Value Press(const Napi::CallbackInfo& info) {
   Napi::Env env = info.Env();
 
   if (info.Length() < 2) {
-    Napi::TypeError::New(env, "Wrong number of arguments").ThrowAsJavaScriptException();
+    Napi::Error::New(env, "Invalid arguments").ThrowAsJavaScriptException();
     return env.Null();
   }
 
   if (!info[0].IsNumber() || !info[1].IsNumber()) {
-    Napi::TypeError::New(env, "Wrong arguments").ThrowAsJavaScriptException();
+    Napi::TypeError::New(env, "Arguments must be a number").ThrowAsJavaScriptException();
     return env.Null();
   }
 

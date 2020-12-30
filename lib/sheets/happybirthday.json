@@ -1,0 +1,127 @@
+[
+    {
+        "note": "C",
+        "duration": 400,
+        "octave": "C4"
+    },
+    {
+        "note": "C",
+        "duration": 400,
+        "octave": "C4"
+    },
+    {
+        "note": "D",
+        "duration": 900,
+        "octave": "C4"
+    },
+    {
+        "note": "C",
+        "duration": 800,
+        "octave": "C4"
+    },
+    {
+        "note": "F",
+        "duration": 700,
+        "octave": "C4"
+    },
+    {
+        "note": "E",
+        "duration": 1000,
+        "octave": "C4"
+    },
+    {
+        "note": "C",
+        "duration": 400,
+        "octave": "C4"
+    },
+    {
+        "note": "C",
+        "duration": 400,
+        "octave": "C4"
+    },
+    {
+        "note": "D",
+        "duration": 900,
+        "octave": "C4"
+    },
+    {
+        "note": "C",
+        "duration": 700,
+        "octave": "C4"
+    },
+    {
+        "note": "G",
+        "duration": 800,
+        "octave": "C4"
+    },
+    {
+        "note": "F",
+        "duration": 1000,
+        "octave": "C4"
+    },
+    {
+        "note": "C",
+        "duration": 400,
+        "octave": "C4"
+    },
+    {
+        "note": "C",
+        "duration": 400,
+        "octave": "C4"
+    },
+    {
+        "note": "A",
+        "duration": 900,
+        "octave": "C4"
+    },
+    {
+        "note": "G",
+        "duration": 700,
+        "octave": "C4"
+    },
+    {
+        "note": "F",
+        "duration": 800,
+        "octave": "C4"
+    },
+    {
+        "note": "E",
+        "duration": 700,
+        "octave": "C4"
+    },
+    {
+        "note": "D",
+        "duration": 1000,
+        "octave": "C4"
+    },
+    {
+        "note": "A#",
+        "duration": 400,
+        "octave": "C4"
+    },
+    {
+        "note": "A#",
+        "duration": 400,
+        "octave": "C4"
+    },
+    {
+        "note": "A",
+        "duration": 800,
+        "octave": "C4"
+    },
+    {
+        "note": "F",
+        "duration": 700,
+        "octave": "C4"
+    },
+    {
+        "note": "G",
+        "duration": 700,
+        "octave": "C4"
+    },
+    {
+        "note": "F",
+        "duration": 1000,
+        "octave": "C4"
+    }
+]
