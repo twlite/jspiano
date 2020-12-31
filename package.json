@@ -1,6 +1,6 @@
 {
   "name": "jspiano",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "license": "MIT",
   "types": "typings/index.d.ts",
@@ -22,15 +22,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Snowflake107/jspiano.git"
+    "url": "git+https://github.com/DevSnowflake/jspiano.git"
   },
   "keywords": [
     "piano",
-    "node.js"
+    "node.js",
+    "javascript-piano",
+    "pianojs",
+    "piano.js",
+    "node-piano",
+    "node.js-music"
   ],
   "author": "Snowflake107",
   "bugs": {
-    "url": "https://github.com/Snowflake107/jspiano/issues"
+    "url": "https://github.com/DevSnowflake/jspiano/issues"
   },
-  "homepage": "https://github.com/Snowflake107/jspiano#readme"
+  "homepage": "https://github.com/DevSnowflake/jspiano#readme"
 }

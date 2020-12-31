@@ -25,7 +25,42 @@ piano.press("C#", "C4", 1000); // press C# of octave C4 for 1 second
     {
         "note": "C",
         "octave": "C4",
-        "duration": 2000
+        "duration": 1000
+    },
+    {
+        "note": "D",
+        "octave": "C4",
+        "duration": 1000
+    },
+    {
+        "note": "E",
+        "octave": "C4",
+        "duration": 1000
+    },
+    {
+        "note": "F",
+        "octave": "C4",
+        "duration": 1000
+    },
+    {
+        "note": "G",
+        "octave": "C4",
+        "duration": 1000
+    },
+    {
+        "note": "A",
+        "octave": "C4",
+        "duration": 1000
+    },
+    {
+        "note": "B",
+        "octave": "C4",
+        "duration": 1000
+    },
+    {
+        "note": "C",
+        "octave": "C5",
+        "duration": 1000
     }
 ]
 ```
@@ -34,13 +69,21 @@ piano.press("C#", "C4", 1000); // press C# of octave C4 for 1 second
 
 ```js
 const { Piano } = require("jspiano");
-const piano = new Piano("C4");
+const piano = new Piano(["C4", "C5"]);
 
 piano.playSheet("./mysheet.json");
 ```
 
 # Octaves
 Available from `C0` to `C7`.
+
+# Events
+## press
+Emitted when a note is pressed! Returns object with `note`, `octave`, `frequency`, `duration` and `time`.
+
+```js
+piano.on("press", ({ note, duration }) => console.log(note, duration));
+```
 
 # Preview
 [![video](https://i.imgur.com/OCe3b4O.png)](https://i.imgur.com/OCe3b4O.mp4 "Preview - Click to Watch!")

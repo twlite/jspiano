@@ -1,397 +1,167 @@
 [
     {
-        "note": "C",
-        "duration": 850,
+        "note": "C#",
+        "duration": 400,
         "octave": "C5"
     },
     {
-        "note": "C",
-        "duration": 900,
+        "note": "C#",
+        "duration": 400,
         "octave": "C5"
     },
     {
-        "note": "C",
-        "duration": 600,
+        "note": "E",
+        "duration": 400,
         "octave": "C5"
     },
     {
-        "note": "C",
-        "duration": 850,
+        "note": "E",
+        "duration": 400,
         "octave": "C5"
     },
     {
-        "note": "C",
-        "duration": 850,
+        "note": "F#",
+        "duration": 400,
         "octave": "C5"
     },
     {
-        "note": "C",
-        "duration": 600,
+        "note": "F#",
+        "duration": 400,
         "octave": "C5"
     },
     {
-        "note": "C",
+        "note": "G#",
+        "duration": 400,
+        "octave": "C5"
+    },
+    {
+        "note": "G#",
         "duration": 800,
         "octave": "C5"
     },
     {
-        "note": "C",
-        "duration": 850,
+        "note": "E",
+        "duration": 200,
         "octave": "C5"
     },
     {
-        "note": "C",
+        "note": "F#",
+        "duration": 200,
+        "octave": "C5"
+    },
+    {
+        "note": "G#",
+        "duration": 400,
+        "octave": "C5"
+    },
+    {
+        "note": "F#",
+        "duration": 200,
+        "octave": "C5"
+    },
+    {
+        "note": "E",
+        "duration": 100,
+        "octave": "C5"
+    },
+    {
+        "note": "F#",
+        "duration": 800,
+        "octave": "C5"
+    },
+    {
+        "note": "C#",
+        "duration": 500,
+        "octave": "C5"
+    },
+    {
+        "note": "C#",
+        "duration": 200,
+        "octave": "C5"
+    },
+    {
+        "note": "C#",
+        "duration": 200,
+        "octave": "C5"
+    },
+    {
+        "note": "C#",
+        "duration": 500,
+        "octave": "C5"
+    },
+    {
+        "note": "C#",
+        "duration": 200,
+        "octave": "C5"
+    },
+    {
+        "note": "E",
+        "duration": 200,
+        "octave": "C5"
+    },
+    {
+        "note": "F#",
+        "duration": 600,
+        "octave": "C5"
+    },
+    {
+        "note": "C#",
+        "duration": 400,
+        "octave": "C5"
+    },
+    {
+        "note": "E",
+        "duration": 400,
+        "octave": "C5"
+    },
+    {
+        "note": "F#",
+        "duration": 500,
+        "octave": "C5"
+    },
+    {
+        "note": "F#",
         "duration": 700,
         "octave": "C5"
     },
     {
-        "note": "C",
-        "duration": 850,
+        "note": "E",
+        "duration": 200,
         "octave": "C5"
     },
     {
-        "note": "C",
+        "note": "F#",
+        "duration": 200,
+        "octave": "C5"
+    },
+    {
+        "note": "G#",
+        "duration": 300,
+        "octave": "C5"
+    },
+    {
+        "note": "F#",
+        "duration": 200,
+        "octave": "C5"
+    },
+    {
+        "note": "E",
+        "duration": 200,
+        "octave": "C5"
+    },
+    {
+        "note": "E",
+        "duration": 400,
+        "octave": "C5"
+    },
+    {
+        "note": "F#",
+        "duration": 400,
+        "octave": "C5"
+    },
+    {
+        "note": "C#",
         "duration": 800,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 900,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 850,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 900,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 600,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 850,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 850,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 600,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 800,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 850,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 700,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 850,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 800,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 900,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 330,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 550,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 370,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 550,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 550,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 370,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 550,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 330,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 550,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 330,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 550,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 370,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 550,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 370,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 900,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 330,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 550,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 370,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 550,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 550,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 370,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 550,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 330,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 550,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 330,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 550,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 370,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 550,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 960,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 550,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 330,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 550,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 370,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 550,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 550,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 370,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 550,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 330,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 550,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 370,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 550,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 370,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 900,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 330,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 550,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 370,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 550,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 550,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 370,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 550,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 330,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 550,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 370,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 550,
-        "octave": "C5"
-    },
-    {
-        "note": "C",
-        "duration": 960,
         "octave": "C5"
     }
 ]

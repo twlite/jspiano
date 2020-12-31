@@ -1,0 +1,82 @@
+[
+    {
+        "note": "C",
+        "octave": "C4",
+        "duration": 1000
+    },
+    {
+        "note": "D",
+        "octave": "C4",
+        "duration": 1000
+    },
+    {
+        "note": "E",
+        "octave": "C4",
+        "duration": 1000
+    },
+    {
+        "note": "F",
+        "octave": "C4",
+        "duration": 1000
+    },
+    {
+        "note": "G",
+        "octave": "C4",
+        "duration": 1000
+    },
+    {
+        "note": "A",
+        "octave": "C4",
+        "duration": 1000
+    },
+    {
+        "note": "B",
+        "octave": "C4",
+        "duration": 1000
+    },
+    {
+        "note": "C",
+        "octave": "C5",
+        "duration": 1000
+    },
+    {
+        "note": "C",
+        "octave": "C5",
+        "duration": 1000
+    },
+    {
+        "note": "B",
+        "octave": "C4",
+        "duration": 1000
+    },
+    {
+        "note": "A",
+        "octave": "C4",
+        "duration": 1000
+    },
+    {
+        "note": "G",
+        "octave": "C4",
+        "duration": 1000
+    },
+    {
+        "note": "F",
+        "octave": "C4",
+        "duration": 1000
+    },
+    {
+        "note": "E",
+        "octave": "C4",
+        "duration": 1000
+    },
+    {
+        "note": "D",
+        "octave": "C4",
+        "duration": 1000
+    },
+    {
+        "note": "C",
+        "octave": "C4",
+        "duration": 1000
+    }
+]

@@ -1,3 +1,5 @@
+import { EventEmitter } from "events";
+
 declare module "jspiano" {
 
     export type OctaveKey = "C0" | "C1" | "C2" | "C3" | "C4" | "C5" | "C6" | "C7";
@@ -8,6 +10,14 @@ declare module "jspiano" {
         all(): string[];
         has(name: string): boolean;
         get(name: string): string | null;
+        set(name: string, data?: SheetInterface[]): string | false;
+        delete(name: string): boolean;
+    }
+
+    export interface SheetInterface {
+        note: Note;
+        octave: Octave;
+        duration?: number;
     }
 
     export const Sheets: SheetsManager;
@@ -60,11 +70,41 @@ declare module "jspiano" {
 
         static get octaves(): OctaveKey[];
         static get notes(): Note[];
+        static get names(): NoteNames;
+
         toArray(): OctaveArray[];
         toJSON(): OctaveJSON;
     }
 
-    export class Piano {
+    export interface PianoPressData {
+        note: Note;
+        octave: Octave;
+        frequency: number,
+        time: number;
+    }
+
+    export interface NoteNames {
+        "C": ["Sa", "Do", "C"];
+        "C#": ["Sa#", "Do#", "C#"];
+
+        "D": ["Re", "Re", "D"];
+        "D#": ["Re#", "Re#", "D#"];
+
+        "E": ["Ga", "Mi", "E"];
+
+        "F": ["Ma", "Fa", "F"];
+        "F#": ["Ma#", "Fa#", "F#"];
+
+        "G": ["Pa", "Sol", "G"];
+        "G#": ["Pa#", "Sol#", "G#"];
+
+        "A": ["Dha", "La", "A"];
+        "A#": ["Dha#", "La#", "A#"];
+
+        "B": ["Ni", "Si", "B"];
+    }
+
+    export class Piano extends EventEmitter {
 
         notes: PianoNotes[];
         constructor(octave?: OctaveKey | OctaveKey[]);
@@ -74,6 +114,9 @@ declare module "jspiano" {
         press(note: Note, octave: OctaveKey, duration?: number): boolean;
 
         playSheet(path: string): void;
+
+        on(event: "press" | string, listener: (note: PianoPressData) => void): this;
+        once(event: "press" | string, listener: (note: PianoPressData) => void): this;
 
     }
 
