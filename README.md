@@ -87,6 +87,3 @@ piano.on("press", ({ note, duration }) => console.log(note, duration));
 
 # Preview
 [![video](https://i.imgur.com/OCe3b4O.png)](https://i.imgur.com/OCe3b4O.mp4 "Preview - Click to Watch!")
-
-# Join my discord
-[![](https://i.imgur.com/f6hNUfc.png)](https://discord.gg/2SUybzb)
